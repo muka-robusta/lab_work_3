@@ -1,0 +1,69 @@
+:root {
+  --purple_1: #8E5B62;
+  --dark_grey_2: #D6D6D6;
+
+  --fox_1: #F58A23;
+  --extralite_grey_2: #D7D9EB;
+  --juicy_blue_3: #252B44;
+  --lite_blue_4: #8598C8;
+  --fox_middle_5: #F09F5A;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif
+}
+
+.wrap_button {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100px;
+
+  margin-top: 10px; 
+}
+
+.button_rollover {
+  background-color: transparent;
+  border: 2px solid var(--fox_middle_5);
+  border-radius: 4px;
+  display: inline-block;
+  color: var(--fox_1);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  margin: 5px;
+  overflow: hidden;
+  padding: 0 22px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    background-color: var(--fox_1);
+  }
+}
+
+.roll-text {
+  display: block;
+  position: relative;
+  transition: all 420ms cubic-bezier(.175,.885,.32,1.275);
+}
+
+.roll-text:last-child {
+  color: var(--lite_blue_4);
+}
+
+.rollover:hover .roll-text:first-child {
+  margin-top: -38px;
+}
+
+@media screen and (max-width: 600px) {
+  .button_rollover {
+    width: 150px;
+  }
+}
+

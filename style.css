@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+}
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	/*overflow: hidden;
+	position: fixed;
+	top: 0;
+	clear: both;*/
+	width: 100%;
+}
+
+footer {
+	clear: both;
+	margin-top: 30px;
+}
+
+
+.bluerred {
+	background-color: blue;
+}
+
+.redded {
+	background-color: red;
+}

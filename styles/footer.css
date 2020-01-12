@@ -1,0 +1,86 @@
+:root {
+  --purple_1: #8E5B62;
+  --light_grey_2: #D6D6D6;
+  --dark_grey_3: #313131;
+
+  --fox_1: #F58A23;
+  --extralite_grey_2: #D7D9EB;
+  --juicy_blue_3: #252B44;
+  --lite_blue_4: #8598C8;
+  --fox_middle_5: #F09F5A;
+  --blue_middle_6: #535B7B;
+}
+
+.footer_list {
+
+  margin-top: 10px;
+  clear: both;
+}
+
+.aphorism_wrap{
+  position: relative;
+  background: var(--fox_middle_5);
+}
+
+.aphorism{
+  text-align: center;
+  width: 960px;
+  letter-spacing: 2px;
+
+  line-height: 36px;
+  margin: auto;
+}
+
+.lookWrap{
+  position: relative; 
+  background-color: var(--juicy_blue_3);
+  float: left;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.look_{
+  margin: auto;
+  width: 700px;
+}
+
+.section{
+  overflow: hidden;
+  float: left;
+  display: inline;
+  width: 160px;
+  margin: 0 15px 15px 0;
+  font: 6pt;
+  line-height: 1.6em;
+}
+
+.section h3{
+  font-weight: normal;
+  font: 20pt;
+  text-transform: uppercase;
+  color: var(--fox_middle_5);
+
+}
+
+.section a{
+  display: block;
+}
+
+.footer_link {
+  color: var(--light_grey_2);
+  text-decoration: none;
+}
+
+.wrap_logo {
+  height: 100px;
+  width: 100px;
+}
+
+.icon_block {
+  height: 150px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

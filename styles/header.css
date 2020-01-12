@@ -1,0 +1,108 @@
+:root {
+	--purple_1: #8E5B62;
+	--light_grey_2: #D6D6D6;
+	--dark_grey_3: #313131;
+
+	--fox_1: #F58A23;
+	--extralite_grey_2: #D7D9EB;
+	--juicy_blue_3: #252B44;
+	--lite_blue_4: #8598C8;
+	--fox_middle_5: #F09F5A;
+	--blue_middle_6: #535B7B;
+}
+
+.main_page_link {
+	color: var(--fox_1);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100px;
+	transition: 0.25s ease-out;
+
+
+	-moz-user-select: none; /* Mozilla Firefox */
+	-ms-user-select: none; /* Internet Explorer (не поддерживается) */
+	-o-user-select: none; /* Opera Presto (не поддерживается) */
+	-webkit-user-select: none; /* Google Chrome, Opera Next, Safari */
+}
+
+.main_page_link:hover {
+  color: var(--lite_blue_4);
+}
+
+.ico {
+	margin-top: 6px;
+}
+
+.container {
+	background-color: #313131;
+	margin: 0;
+	padding: 0;
+	height: 75px;
+	
+	display: flex;	
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.header_menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 75px;
+}
+
+.logo_area {
+	margin: 0;
+	padding: 0;
+	width: 75px;
+	height: 75px;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header_text {
+	color: #F7F2EE;
+	margin: 0;
+}
+
+.space_500 {
+	width: 500px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+	header {
+		overflow: visible;
+		position: static;
+	}
+
+	.container {
+
+		background-color: #313131;
+		margin: 0;
+		padding: 0;
+		height: 380px;
+
+
+		display: flex;	
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+
+	}
+
+	.header_menu {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;	
+	}
+
+	.space_500 {
+		width: 0;
+	}
+}
