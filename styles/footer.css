@@ -37,6 +37,9 @@
   float: left;
   width: 100%;
   padding-bottom: 50px;
+
+  display: flex;
+  flex-direction: row;
 }
 
 .look_{
@@ -84,3 +87,36 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 600px) {
+  
+
+  .look_{
+    position: static; 
+    background-color: var(--juicy_blue_3);
+    float: left;
+    width: 100%;
+    padding-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aphorism_wrap{
+    position: static;
+    background: var(--fox_middle_5);
+  }
+
+  .section{
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 160px;
+    margin: 0;
+    font: 6pt;
+    line-height: 1.6em;
+  }
+}
